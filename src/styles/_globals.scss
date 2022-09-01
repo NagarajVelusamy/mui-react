@@ -1,0 +1,23 @@
+@use "./variable" as *;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: $primary-ff;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
